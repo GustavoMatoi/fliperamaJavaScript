@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100%;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../imagens/fliperamajs_lg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Bebas Neue', cursive;
+    color: #250A58;
+    overflow: hidden;    
+}
+#titulo {
+    background-color: #180638;
+    color: #08BEF8;
+    text-align: center;
+    padding: 5px;
+    letter-spacing: 20px;
+}
+
+#titulo h1 {
+    font-size: 3em;
+    margin-top: 5px;
+}
+
+
+.principal {
+    padding: 10px 30px;
+    margin: 3% 50px;
+    background-image: url(../imagens/quadradoBranco.png);
+    border-radius: 50px;
+    filter: drop-shadow(0px 0px 32px #000);
+    position: absolute;
+}
+.tela-game {
+    width: 90%;
+    height: 65%;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    border-radius: 30px;
+    border: 2px solid white;
+
+}
+.tela-game img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.nome-game {
+
+    position: absolute;
+    bottom: 19%;
+    left: 50%;
+    transform: translate(-50%);
+    height: 10%;
+    font-size: 20px;
+}
+.caixa {
+    margin-top: 20px;
+    width: 300px;
+    height: 250px;
+    border: 3px solid white;
+    border-radius: 15px;
+    position: relative;
+    background-color: #08BEF8;
+}
+
+
+.botoes {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    font-size: 15px;
+}
+
+@media(max-width: 575px){
+
+    
+}
+
+@media (min-width: 576px) { 
+
+ }
+
+@media (min-width: 768px) { 
+
+ }
+
+@media (min-width: 992px) { 
+
+ }
+
+@media (min-width: 1200px) { 
+
+ }
+
+@media (min-width: 1400px) {  
+
+}
+
+footer {
+    width: 100%;
+    background-color: #180638;
+    position: absolute;
+    height: 10%;
+    color: white;
+    bottom: 0;
+}
+
+footer h1 {
+    font-size: 4.5em;
+}
+
+footer h3{
+    font-size: 1em;
+}
+
+footer h3 a {
+    text-decoration: none;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Mata Mosquito</title>
+    <link rel="stylesheet" href="estilo.css">
+
+    <style>
+        html {
+            cursor: url(imagens/mata_mosca.png) 30 30, auto;
+        }
+    </style>
+</head>
+<body onresize="ajustarTamanhoWindow()">
+
+    <div class="painel">
+        <div class="vida">
+            <img id="v1" src="imagens/coracao_cheio.png" alt="coracao_vazio">
+            <img id="v2" src="imagens/coracao_cheio.png" alt="coracao_cheio">
+            <img id="v3" src="imagens/coracao_cheio.png" alt="coracao_cheio">
+
+        </div>
+
+        <div class="tempo">
+            Tempo restante :<span id="cronometro"></span>
+        </div>
+    </div>
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
